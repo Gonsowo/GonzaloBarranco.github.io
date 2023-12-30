@@ -185,8 +185,8 @@ h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: var(--cool-blue);
-  font-size: 19px;
+  color: var(--white);
+  font-size: 25px;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
