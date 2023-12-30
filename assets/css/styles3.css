@@ -214,7 +214,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active > a,
 .nav-menu li:hover > a {
-  color: var(--dark-green);
+  color: var(--light-pink);
   text-decoration: none;
 }
 
