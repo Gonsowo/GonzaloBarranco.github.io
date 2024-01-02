@@ -17,6 +17,7 @@
   --custom-dark-green: #1c7d32;
   --custom-dark-yellow: #9e7f25;
   --custom-dark-blue: #09203a;
+  --custom-purple: #91378f;
 
   /* New palette */
   --cool-blue: #081f62;
@@ -792,7 +793,7 @@ section .container {
   line-height: 1;
   text-transform: uppercase;
   color: var(--cool-blue);
-  background: rgba(202, 35, 35, 0.1);
+  background: rgba(191, 35, 202, 0.2);
   margin: 0 3px 10px 3px;
   transition: all 0.3s ease-in-out;
   border-radius: 4px;
@@ -800,7 +801,8 @@ section .container {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: var(--light-pink);
+  background: var(--custom-purple);
+  color: var(--white);
 }
 
 .portfolio #portfolio-flters li:last-child {
