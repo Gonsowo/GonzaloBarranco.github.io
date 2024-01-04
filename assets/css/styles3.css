@@ -854,8 +854,8 @@ section .container {
   position: absolute;
   top: 35px;
   left: 35px;
-  border-top: 3px solid #9ea9e4;
-  border-left: 3px solid #9ea9e4;
+  border-top: 3px solid indianred;
+  border-left: 3px solid indianred;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -868,8 +868,8 @@ section .container {
   position: absolute;
   bottom: 35px;
   right: 35px;
-  border-bottom: 3px solid #9ea9e4;
-  border-right: 3px solid #9ea9e4;
+  border-bottom: 3px solid indianred;
+  border-right: 3px solid indianred;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -894,7 +894,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #9ea9e4;
+  color: indianred;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
@@ -902,7 +902,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #63eda3;
+  color: gold;
 }
 
 .portfolio .portfolio-wrap:hover::before {
