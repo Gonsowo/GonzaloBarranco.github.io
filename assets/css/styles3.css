@@ -27,6 +27,7 @@
   --yellow: #ffc107;
   --light-pink: #edc7b7;
   --golden-yellow: #9e7f25;
+  --custom-pink: #c431b0;
   /* --dark-blue: #e7e9f0; */
   --dark-blue: #d7d9e2;
 }
@@ -265,7 +266,7 @@ h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: var(--cool-blue);
+  color: var(--light-pink);
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -274,7 +275,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: var(--light-pink);
+  color: var(--custom-yellow);
   text-decoration: none;
 }
 
@@ -301,7 +302,7 @@ h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: var(--cool-blue);
+  color: var(--custom-yellow);
 }
 
 /* Header Top */
